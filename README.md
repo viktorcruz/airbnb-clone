@@ -15,4 +15,4 @@ This is a prototype of an Airbnb clone developed widt React, Node.js and Materia
 
 ## Vercel 
 
-https://airbnb-clone-eight-puce.vercel.app/
+https://airbnb-clone-zeta-beryl.vercel.app/
