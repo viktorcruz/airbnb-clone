@@ -1,0 +1,34 @@
+.property-details {
+    margin: 0 auto;
+    max-width: 1122px;
+}
+
+.property-details__title {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.property-details__info {
+    font-size: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.property-details__root {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-details__banner {
+    position: relative;
+    margin-left: 8%;
+    margin-right: 0;
+    width: 33%;
+}
+
+.property-details__info>p {
+    &:first-child {
+        margin-top: 20px;
+    }
+}

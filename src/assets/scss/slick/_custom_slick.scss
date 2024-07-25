@@ -1,0 +1,107 @@
+.category-carousel,
+.card {
+    .slick-slider>.slick-dots {
+        bottom: 10px !important;
+    }
+
+    .slick-slider>.slick-dots li {
+        width: 12px !important;
+        margin: 2px !important;
+    }
+
+    .slick-dots li.slick-active button:before,
+    .slick-dots li button:before,
+    .slick-slider>.slick-dots>button::before {
+        color: #fff !important;
+    }
+
+    .slick-slider>.slick-arrow::before,
+    .slick-slider>.slick-prev::before {
+        content: none;
+    }
+
+    .slick-arrow {
+        .slick-next {
+            margin-right: 40px;
+        }
+
+        .slick-prev {
+            margin-left: 40px;
+        }
+    }
+
+    .slick-next,
+    .slick-prev¨ {
+        z-index: 1;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+
+    .custom-arrows {
+        padding: 0 !important;
+        margin: 0 !important;
+        position: absolute !important;
+
+        .MuiSvgIcon-root {
+            font-size: 40px;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: #fff !important;
+            color: #7a7a7a;
+            outline: none;
+        }
+    }
+
+    .custom-arrow__left {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        left: 12px !important;
+        background-color: #fff;
+        border: 0.7px solid #696969aa;
+    }
+
+    .custom-arrow__right {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        right: 12px !important;
+        background-color: #fff;
+        border: 0.7px solid #696969aa;
+
+    }
+
+    .custom-arrow__left,
+    .custom-arrow__right {
+        position: absolute !important;
+        z-index: 2 !important;
+    }
+
+    // .slick-slider {//     // width: 100%;
+// }
+    .slick-slide {
+        max-width: 100vw;
+        width: 75px;
+        overflow: hidden !important;
+      }
+    .slick-track {
+        display: flex !important;
+    }
+
+    .slider-container {
+        max-width: 100vw;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .container-wrap {
+        position: absolute;
+        top: 150px;
+        bottom: 0px;
+        width: 85%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+.header__center-button {
+    display: flex;
+
+    .MuiTypography-root {
+        color: #FF385C !important;
+    }
+
+    .btn {
+        border-radius: 0;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:first-child {
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        &:last-child {
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+        &:not(:first-child) {
+            margin-left: -1px;
+        }
+    }
+
+    .p-10 {
+        padding: 10px;
+    }
+
+    .p-15 {
+        padding: 15px;
+    }
+
+    .btn-destination,
+    .btn-guests {
+        width: 250px;
+    }
+
+    .btn-arrival,
+    .btn-departure {
+        width: 110px;
+    }
+
+    .MuiButton-label {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+.btn-no-bg {
+    background: none !important;
+}
+
+.btn-no-shadow {
+    box-shadow: none !important;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .header__center-button {
+        display: none;
+    }
+}

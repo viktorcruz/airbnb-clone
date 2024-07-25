@@ -1,0 +1,41 @@
+.card-photo-gallery {
+    margin: 0 auto;
+    margin-top: 2px;
+    max-width: 1122px;
+}
+
+.card-photo-gallery__main {
+    border-radius: 15px !important;
+}
+
+.card-photo-gallery__image {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px !important;
+}
+
+.card-photo-gallery__small {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px !important;
+}
+
+.card-photo-gallery__show-more {
+    margin-top: 1px;
+    width: 180;
+    text-align: right;
+    text-transform: capitalize !important;
+    color: #000 !important;
+    border-color: #000 !important;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .card-photo-gallery__image {
+        height: 200px;
+    }
+
+    .card-photo-gallery__small {
+        height: 100px;
+    }
+}
